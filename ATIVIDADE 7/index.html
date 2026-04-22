@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 7</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Funções</h1>
+
+    <div class="bloco">
+      <h2>Maior número</h2>
+      <input id="n1" placeholder="Número 1">
+      <input id="n2" placeholder="Número 2">
+      <input id="n3" placeholder="Número 3">
+      <button onclick="maiorNumero()">Ver maior</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Ordem crescente</h2>
+      <button onclick="ordemCrescente()">Ordenar números</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Palíndromo</h2>
+      <input id="texto" placeholder="Digite uma palavra">
+      <button onclick="verificarPalindromo()">Verificar</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Subconjunto</h2>
+      <input id="palavra1" placeholder="Palavra 1">
+      <input id="palavra2" placeholder="Palavra 2">
+      <button onclick="verificarSubconjunto()">Verificar</button>
+    </div>
+
+    <div class="bloco">
+      <h2>Dia da semana</h2>
+      <input id="data" type="date">
+      <button onclick="diaSemana()">Ver dia</button>
+    </div>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
