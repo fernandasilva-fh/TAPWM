@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+#resultado,
+#resultadoCorrente,
+#resultadoPoupanca {
+    margin-top: 15px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.secao {
+    display: none;
+    margin-top: 20px;
+}
